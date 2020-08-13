@@ -1,0 +1,130 @@
+#catalogo * {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    max-width: 100%;
+    font-family: "Helvetica Neue", sans-serif;
+  }
+  
+  #catalogo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  #catalogo   .container {
+    width: 320px;
+    border-radius: 5px;
+    background: #fdfffc;
+    height: 300px;
+    position: relative;
+    margin: 60px 1.5rem;
+    -webkit-box-shadow: 8px 8px 50px;
+    -webkit-transition-duration: .5s;
+  }
+  
+  #catalogo   .container:hover {
+    -webkit-transition-duration: .5s;
+    -webkit-box-shadow: 1px 1px 15px;
+  }
+  
+  #catalogo  .product {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  #catalogo  section {
+    position: absolute;
+    text-align: justify;
+    height: 70px;
+    text-shadow: 0px 0px #999;
+    top: 150px;
+    opacity: 0;
+    padding: 50px;
+    -webkit-transition-duration: .2s;
+  }
+  
+  #catalogo  .container:hover section {
+    opacity: 1;
+    color: #92140c;
+    -webkit-transition-duration: 4s;
+  }
+  
+  #catalogo  img {
+    margin: 0 auto;
+    position: absolute;
+    top: 30px;
+    -webkit-transition-duration: .5s;
+    -webkit-transform: scale(0.6);
+    left: -5%;
+  }
+  
+  #catalogo  .container:hover img {
+    margin: 5px auto;
+    -webkit-transform: scale(0.2);
+    top: -10%;
+    opacity: .3;
+    -webkit-transition-duration: 1s;
+  }
+  
+  #catalogo   h1 {
+    opacity: 1;
+    color: #f71735;
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+  }
+  
+  #catalogo   p {
+    opacity: 1;
+    margin-left: 25px;
+    text-align: center;
+    position: relative;
+    top: 65%;
+    font-size: 30px;
+    float: left;
+    color: black;
+    -webkit-transition-duration: .3s;
+  }
+  
+  #catalogo  .container:hover p {
+    top: 10%;
+    -webkit-transition-duration: 1s;
+  }
+  
+  #catalogo  .cart {
+    float: right;
+    top: 65%;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #011627;
+    -webkit-transition-duration: .3s;
+    cursor: pointer;
+  }
+  
+  #catalogo  .container:hover .cart {
+    top: 10%;
+    -webkit-transition-duration: 1s;
+  }
+  
+  #catalogo  .cart:hover {
+    background-color: #f71735;
+    -webkit-transition-duration: .3s;
+  }
+  
+
+
+  
